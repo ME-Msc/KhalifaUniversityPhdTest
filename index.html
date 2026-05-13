@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="面向哈利法大学研究生申请人的专业方向匹配、导师筛选和奖学金风险测评工具。"
+    />
+    <title>KU Compass | 哈利法大学申请测评</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div id="accessGate" class="access-gate" hidden>
+      <section class="gate-panel" aria-labelledby="gateTitle">
+        <img
+          class="ku-logo"
+          src="https://www.ku.ac.ae/wp-content/uploads/2021/08/cropped-logo.png"
+          alt="Khalifa University"
+        />
+        <h1 id="gateTitle">KU Compass</h1>
+        <p>输入验证码进入哈利法大学研究生申请测评。</p>
+        <form id="accessForm" class="gate-form">
+          <label for="accessCode">验证码</label>
+          <div class="gate-row">
+            <input
+              id="accessCode"
+              name="accessCode"
+              autocomplete="one-time-code"
+              autocapitalize="characters"
+              spellcheck="false"
+              required
+            />
+            <button type="submit">进入</button>
+          </div>
+          <p id="accessMessage" class="form-message" role="status"></p>
+        </form>
+      </section>
+    </div>
+
+    <main id="app" class="app-shell" hidden>
+      <header class="topbar">
+        <div class="brand-lockup">
+          <img
+            class="ku-logo"
+            src="https://www.ku.ac.ae/wp-content/uploads/2021/08/cropped-logo.png"
+            alt="Khalifa University"
+          />
+          <span class="eyebrow">Khalifa University Graduate Compass</span>
+          <h1>哈利法大学申请测评</h1>
+        </div>
+        <button id="resetAccess" class="ghost-button" type="button" title="重新输入验证码">
+          重置
+        </button>
+      </header>
+
+      <section class="workspace">
+        <form id="profileForm" class="input-panel">
+          <nav class="step-tabs" aria-label="测评步骤">
+            <button class="step-tab active" type="button" data-step-target="0">目标</button>
+            <button class="step-tab" type="button" data-step-target="1">学校</button>
+            <button class="step-tab" type="button" data-step-target="2">成绩</button>
+            <button class="step-tab" type="button" data-step-target="3">科研</button>
+            <button class="step-tab" type="button" data-step-target="4">匹配</button>
+          </nav>
+
+          <section class="form-step active" data-step="0">
+            <div class="section-heading">
+              <span>Step 1</span>
+              <h2>目标方向</h2>
+            </div>
+            <div class="choice-grid degree-grid">
+              <label class="choice-card">
+                <input type="radio" name="targetDegree" value="phd" checked />
+                <strong>常规博士 PhD</strong>
+                <small>已有硕士或硕士在读</small>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="targetDegree" value="direct-phd" />
+                <strong>本科直博</strong>
+                <small>本科 GPA/GRE 要求更高</small>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="targetDegree" value="master" />
+                <strong>硕士 Master</strong>
+                <small>先读硕士再冲博士</small>
+              </label>
+            </div>
+
+            <div class="field-grid">
+              <label>
+                本科专业
+                <select name="bachelorMajor">
+                  <option value="computer-science">计算机 / 软件 / AI</option>
+                  <option value="electrical">电子 / 通信 / 自动化</option>
+                  <option value="mechanical">机械 / 航空 / 机器人</option>
+                  <option value="chemical">化工 / 材料 / 化学</option>
+                  <option value="civil">土木 / 环境 / 城市系统</option>
+                  <option value="biomedical">生医 / 生命科学 / 医学</option>
+                  <option value="energy">能源 / 核 / 石油</option>
+                  <option value="math">数学 / 统计 / 物理</option>
+                  <option value="management">工程管理 / 商科 / 公共政策</option>
+                </select>
+              </label>
+
+              <label class="master-only">
+                硕士专业
+                <select name="masterMajor">
+                  <option value="computer-science" selected>计算机 / 软件 / AI</option>
+                  <option value="electrical">电子 / 通信 / 自动化</option>
+                  <option value="mechanical">机械 / 航空 / 机器人</option>
+                  <option value="chemical">化工 / 材料 / 化学</option>
+                  <option value="civil">土木 / 环境 / 城市系统</option>
+                  <option value="biomedical">生医 / 生命科学 / 医学</option>
+                  <option value="energy">能源 / 核 / 石油</option>
+                  <option value="math">数学 / 统计 / 物理</option>
+                  <option value="management">工程管理 / 商科 / 公共政策</option>
+                </select>
+              </label>
+
+              <label>
+                研究兴趣
+                <select name="researchArea">
+                  <option value="ai-data">AI / 数据科学 / 大模型</option>
+                  <option value="cyber-systems">网络安全 / 系统 / HPC</option>
+                  <option value="robotics">机器人 / 自动驾驶 / 控制</option>
+                  <option value="aerospace">航空航天 / 空间系统</option>
+                  <option value="energy-sustainability">能源 / 可持续 / 石油</option>
+                  <option value="materials-chemistry">材料 / 化学 / 先进制造</option>
+                  <option value="bio-health">生医 / 数字健康 / 公共卫生</option>
+                  <option value="math-physics">数学 / 物理 / 计算建模</option>
+                  <option value="systems-management">工程管理 / 创新创业</option>
+                </select>
+              </label>
+            </div>
+          </section>
+
+          <section class="form-step" data-step="1" hidden>
+            <div class="section-heading">
+              <span>Step 2</span>
+              <h2>学校背景</h2>
+            </div>
+            <p class="step-note">常规博士会额外评估硕士院校；本科直博和硕士申请只需要填写本科院校。</p>
+
+            <div class="school-block">
+              <h3>本科院校</h3>
+              <div class="field-grid">
+                <label>
+                  地区
+                  <select name="bachelorOrigin" data-origin-for="bachelor">
+                    <option value="china">中国大陆</option>
+                    <option value="overseas">海外/港澳台</option>
+                  </select>
+                </label>
+                <label class="china-school china-school-level">
+                  国内院校类型
+                  <select name="bachelorSchoolLevel" data-school-level-for="bachelor">
+                    <option value="985" selected>985</option>
+                    <option value="211">211（非 985）</option>
+                    <option value="research-institute">中科院 / 科研院所</option>
+                    <option value="other-domestic">双非 / 其他国内院校</option>
+                  </select>
+                </label>
+                <label class="china-school china-school-preset">
+                  学校名
+                  <select name="bachelorChinaSchoolPreset" data-china-school-for="bachelor"></select>
+                </label>
+                <label class="china-school china-school-custom" hidden>
+                  学校名
+                  <input name="bachelorSchoolName" value="" placeholder="请输入学校全称" />
+                </label>
+                <label class="overseas-school" hidden>
+                  地区筛选
+                  <select name="bachelorRegion" data-region-for="bachelor"></select>
+                </label>
+                <label class="overseas-school" hidden>
+                  QS 前100区间
+                  <select name="bachelorRankBand">
+                    <option value="qs-top-20">QS Top 20</option>
+                    <option value="qs-21-50">QS 21-50</option>
+                    <option value="qs-51-100">QS 51-100</option>
+                    <option value="overseas-other">海外其他正规大学</option>
+                  </select>
+                </label>
+                <label class="overseas-school" hidden>
+                  海外学校
+                  <select name="bachelorOverseasPreset" data-overseas-for="bachelor"></select>
+                  <input class="stack-input" name="bachelorOverseasCustom" placeholder="列表没有就手动输入" />
+                </label>
+              </div>
+            </div>
+
+            <div class="school-block master-only">
+              <h3>硕士院校</h3>
+              <div class="field-grid">
+                <label>
+                  地区
+                  <select name="masterOrigin" data-origin-for="master">
+                    <option value="china">中国大陆</option>
+                    <option value="overseas">海外/港澳台</option>
+                  </select>
+                </label>
+                <label class="china-school china-school-level">
+                  国内院校类型
+                  <select name="masterSchoolLevel" data-school-level-for="master">
+                    <option value="985" selected>985</option>
+                    <option value="211">211（非 985）</option>
+                    <option value="research-institute">中科院 / 科研院所</option>
+                    <option value="other-domestic">双非 / 其他国内院校</option>
+                  </select>
+                </label>
+                <label class="china-school china-school-preset">
+                  学校名
+                  <select name="masterChinaSchoolPreset" data-china-school-for="master"></select>
+                </label>
+                <label class="china-school china-school-custom" hidden>
+                  学校名
+                  <input name="masterSchoolName" value="" placeholder="请输入学校全称" />
+                </label>
+                <label class="overseas-school" hidden>
+                  地区筛选
+                  <select name="masterRegion" data-region-for="master"></select>
+                </label>
+                <label class="overseas-school" hidden>
+                  QS 前100区间
+                  <select name="masterRankBand">
+                    <option value="qs-top-20">QS Top 20</option>
+                    <option value="qs-21-50">QS 21-50</option>
+                    <option value="qs-51-100">QS 51-100</option>
+                    <option value="overseas-other">海外其他正规大学</option>
+                  </select>
+                </label>
+                <label class="overseas-school" hidden>
+                  海外学校
+                  <select name="masterOverseasPreset" data-overseas-for="master"></select>
+                  <input class="stack-input" name="masterOverseasCustom" placeholder="列表没有就手动输入" />
+                </label>
+              </div>
+            </div>
+          </section>
+
+          <section class="form-step" data-step="2" hidden>
+            <div class="section-heading">
+              <span>Step 3</span>
+              <h2>成绩与语言</h2>
+            </div>
+            <div class="field-grid">
+              <label>
+                本科 GPA / 4.0
+                <input name="bachelorGpa" type="number" min="0" max="4" step="0.01" value="3.45" />
+              </label>
+              <label class="master-only">
+                硕士 GPA / 4.0
+                <input name="masterGpa" type="number" min="0" max="4" step="0.01" value="3.55" />
+              </label>
+              <label>
+                IELTS
+                <input name="ielts" type="number" min="0" max="9" step="0.5" value="6.5" />
+              </label>
+              <label>
+                TOEFL iBT
+                <input name="toefl" type="number" min="0" max="120" step="1" value="91" />
+              </label>
+              <label class="direct-phd-only">
+                GRE Quantitative（本科直博）
+                <input name="greQuant" type="number" min="130" max="170" step="1" value="155" />
+              </label>
+            </div>
+            <div id="liveWarnings" class="inline-warnings"></div>
+          </section>
+
+          <section class="form-step" data-step="3" hidden>
+            <div class="section-heading">
+              <span>Step 4</span>
+              <h2>科研经历</h2>
+            </div>
+            <div class="field-grid">
+              <label>
+                期刊论文篇数
+                <input name="journalPapers" type="number" min="0" max="20" step="1" value="1" />
+              </label>
+              <label>
+                会议论文篇数
+                <input name="conferencePapers" type="number" min="0" max="20" step="1" value="1" />
+              </label>
+              <label>
+                最好期刊级别
+                <select name="bestJournalLevel">
+                  <option value="sci-q1">SCI Q1 / 顶刊</option>
+                  <option value="sci-q2" selected>SCI Q2</option>
+                  <option value="sci-q3">SCI Q3/Q4</option>
+                  <option value="sci-other">SCI/EI 其他</option>
+                  <option value="core">中文核心 / 普通英文期刊</option>
+                  <option value="other">其他期刊</option>
+                  <option value="none">无期刊</option>
+                </select>
+              </label>
+              <label>
+                最好会议级别
+                <select name="bestConferenceLevel">
+                  <option value="ccf-a">CCF A / 顶会</option>
+                  <option value="ccf-b">CCF B / 强国际会议</option>
+                  <option value="ccf-c" selected>CCF C / 普通国际会议</option>
+                  <option value="international">其他国际会议</option>
+                  <option value="other">国内/普通会议</option>
+                  <option value="none">无会议</option>
+                </select>
+              </label>
+              <label>
+                最高作者位置
+                <select name="authorPosition">
+                  <option value="first" selected>一作</option>
+                  <option value="cofirst">共同一作</option>
+                  <option value="corresponding">通讯作者</option>
+                  <option value="second">二作</option>
+                  <option value="coauthor">合作作者</option>
+                  <option value="none">无论文作者身份</option>
+                </select>
+              </label>
+              <label>
+                科研/实验室项目数
+                <input name="researchProjects" type="number" min="0" max="20" step="1" value="2" />
+              </label>
+            </div>
+          </section>
+
+          <section class="form-step" data-step="4" hidden>
+            <div class="section-heading">
+              <span>Step 5</span>
+              <h2>导师与文书</h2>
+            </div>
+            <div class="field-grid">
+              <label>
+                推荐信强度
+                <select name="recommendation">
+                  <option value="strong">强推，能写细节</option>
+                  <option value="normal" selected>常规推荐</option>
+                  <option value="weak">泛泛推荐 / 暂未确定</option>
+                </select>
+              </label>
+              <label>
+                推荐人身份
+                <select name="recommenderLevel">
+                  <option value="ku-related">KU/海外合作导师或强相关 PI</option>
+                  <option value="professor" selected>教授 / 博导</option>
+                  <option value="associate-professor">副教授 / 青年 PI</option>
+                  <option value="lecturer">讲师 / 行业主管</option>
+                </select>
+              </label>
+              <label>
+                套磁匹配
+                <select name="supervisorFit">
+                  <option value="clear">已有明确导师和研究题目</option>
+                  <option value="some" selected>有 2-3 个潜在方向</option>
+                  <option value="none">还没筛导师</option>
+                </select>
+              </label>
+              <label>
+                文书状态
+                <select name="documents">
+                  <option value="ready">SOP / CV / Research Statement 基本成型</option>
+                  <option value="draft" selected>有素材，待打磨</option>
+                  <option value="not-ready">还没开始</option>
+                </select>
+              </label>
+            </div>
+          </section>
+
+          <div class="actions">
+            <button id="prevStep" type="button" class="secondary-button">上一步</button>
+            <button id="nextStep" type="button">下一步</button>
+            <button id="generateReport" type="submit">生成报告</button>
+          </div>
+        </form>
+
+        <aside id="resultPanel" class="result-panel" aria-live="polite" hidden>
+          <div class="score-board">
+            <div>
+              <span>综合成功率</span>
+              <strong id="scoreNumber">--</strong>
+              <em id="scoreValue">待生成</em>
+            </div>
+            <canvas id="scoreCanvas" width="220" height="220" aria-label="申请力雷达图"></canvas>
+          </div>
+
+          <div id="warningList" class="warning-list"></div>
+          <div id="basisList" class="basis-list"></div>
+          <div id="eligibility" class="eligibility-list"></div>
+
+          <div class="section-heading compact">
+            <span>Programs</span>
+            <h2>官网项目推荐</h2>
+          </div>
+          <div id="recommendations" class="program-list"></div>
+
+          <div class="section-heading compact">
+            <span>Supervisor</span>
+            <h2>导师筛选建议</h2>
+          </div>
+          <div id="supervisorList" class="info-list"></div>
+
+          <div class="section-heading compact">
+            <span>Funding</span>
+            <h2>奖学金与博士风险</h2>
+          </div>
+          <div id="scholarshipList" class="info-list"></div>
+
+          <div class="section-heading compact">
+            <span>Next</span>
+            <h2>提升建议</h2>
+          </div>
+          <ul id="adviceList" class="advice-list"></ul>
+        </aside>
+      </section>
+
+      <footer class="footer">
+        <span>结果为非官方估算，适合做选校、套磁和文书策略参考。</span>
+        <a href="https://www.ku.ac.ae/academics/graduate-programs" target="_blank" rel="noreferrer">
+          KU Graduate Programs
+        </a>
+        <a href="https://www.ku.ac.ae/postgraduate-admissions" target="_blank" rel="noreferrer">
+          KU Admissions
+        </a>
+        <a
+          href="https://ku-ae.smartcatalogiq.com/en/2025-2026/graduate-catalog/graduate-admission-and-scholarships/scholarships"
+          target="_blank"
+          rel="noreferrer"
+        >
+          KU Scholarships
+        </a>
+      </footer>
+    </main>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>

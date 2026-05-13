@@ -1,0 +1,67 @@
+name: Rotate access code
+
+on:
+  schedule:
+    - cron: "0 0 */2 * *"
+  workflow_dispatch:
+    inputs:
+      custom_code:
+        description: "Optional custom access code. Leave empty to auto-generate."
+        required: false
+        default: ""
+      expose_code_in_summary:
+        description: "Show plaintext code in workflow summary. Use only in private repos."
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  rotate:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rotate code
+        env:
+          ACCESS_URL: ${{ vars.ACCESS_URL }}
+          CODE_URL: ${{ vars.CODE_URL }}
+          ACCESS_CODE: ${{ github.event.inputs.custom_code }}
+          FULFILLMENT_WEBHOOK_URL: ${{ secrets.FULFILLMENT_WEBHOOK_URL }}
+          FULFILLMENT_WEBHOOK_TOKEN: ${{ secrets.FULFILLMENT_WEBHOOK_TOKEN }}
+          EXPOSE_CODE_IN_SUMMARY: ${{ github.event.inputs.expose_code_in_summary }}
+        run: node scripts/rotate-code.mjs --ci
+      - name: Commit changed access files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/access-code.json current-code.txt
+          if git diff --cached --quiet; then
+            echo "No access-code change to commit."
+          else
+            git commit -m "chore: rotate access code"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - name: Prepare static site
+        run: |
+          mkdir _site
+          cp index.html current-code.txt _site/
+          cp -R assets data _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

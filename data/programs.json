@@ -1,0 +1,1269 @@
+[
+  {
+    "nameEn": "PhD in Computer Science",
+    "nameZh": "计算机科学博士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "computer-science",
+      "ai-data",
+      "cyber-systems",
+      "math-physics"
+    ],
+    "idealBackground": [
+      "computer-science",
+      "electrical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "人工智能",
+      "网络安全",
+      "数据系统",
+      "高性能计算",
+      "软件工程"
+    ],
+    "concentrationsEn": [
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Data Systems",
+      "HPC",
+      "Software Engineering"
+    ],
+    "positioningZh": "适合算法、软件、数据、系统、网络安全或 AI 研究经历较强的申请人。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/phd-in-computer-science"
+  },
+  {
+    "nameEn": "MSc in Computer Science",
+    "nameZh": "计算机科学理学硕士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "computer-science",
+      "ai-data",
+      "cyber-systems"
+    ],
+    "idealBackground": [
+      "computer-science",
+      "electrical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "人工智能"
+    ],
+    "concentrationsEn": [
+      "Artificial Intelligence"
+    ],
+    "positioningZh": "适合作为 AI、计算机、系统或数据方向进入 KU 研究路径的硕士项目。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-computer-science/"
+  },
+  {
+    "nameEn": "MSc in Computational Data Science",
+    "nameZh": "计算数据科学理学硕士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "ai-data",
+      "math-physics",
+      "computer-science",
+      "systems-management"
+    ],
+    "idealBackground": [
+      "computer-science",
+      "math",
+      "electrical",
+      "management"
+    ],
+    "concentrationsZh": [
+      "计算系统",
+      "数据分析"
+    ],
+    "concentrationsEn": [
+      "Computational Systems",
+      "Data Analytics"
+    ],
+    "positioningZh": "适合统计、编程、机器学习、数据分析和跨学科建模背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-computational-data-science"
+  },
+  {
+    "nameEn": "PhD in Computer and Information Engineering",
+    "nameZh": "计算机与信息工程博士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "electrical",
+      "cyber-systems",
+      "robotics",
+      "ai-data",
+      "computer-science"
+    ],
+    "idealBackground": [
+      "electrical",
+      "computer-science",
+      "math"
+    ],
+    "concentrationsZh": [
+      "计算系统",
+      "通信网络",
+      "优化与安全"
+    ],
+    "concentrationsEn": [
+      "Computing Systems",
+      "Communications and Networks",
+      "Optimization and Security"
+    ],
+    "positioningZh": "适合通信、网络、嵌入式、优化、安全、边缘计算和计算系统方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-computer-and-information-engineering"
+  },
+  {
+    "nameEn": "PhD in Robotics",
+    "nameZh": "机器人博士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "robotics",
+      "ai-data",
+      "mechanical",
+      "electrical"
+    ],
+    "idealBackground": [
+      "mechanical",
+      "electrical",
+      "computer-science"
+    ],
+    "concentrationsZh": [
+      "机器人系统",
+      "自主系统",
+      "控制",
+      "感知"
+    ],
+    "concentrationsEn": [
+      "Robotic Systems",
+      "Autonomy",
+      "Control",
+      "Perception"
+    ],
+    "positioningZh": "适合控制、感知、无人系统、自动驾驶、机电系统和机器人算法方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-robotics"
+  },
+  {
+    "nameEn": "MSc in Robotics and Autonomous Systems",
+    "nameZh": "机器人与自主系统理学硕士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "robotics",
+      "ai-data",
+      "mechanical",
+      "electrical"
+    ],
+    "idealBackground": [
+      "mechanical",
+      "electrical",
+      "computer-science"
+    ],
+    "concentrationsZh": [
+      "机器人",
+      "自主系统"
+    ],
+    "concentrationsEn": [
+      "Robotics",
+      "Autonomous Systems"
+    ],
+    "positioningZh": "适合从机电、控制、AI、车辆或计算机视觉切入机器人研究的申请人。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-robotics-and-autonomous-systems"
+  },
+  {
+    "nameEn": "PhD in Mathematics",
+    "nameZh": "数学博士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "math-physics",
+      "math",
+      "ai-data",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "math",
+      "computer-science",
+      "electrical"
+    ],
+    "concentrationsZh": [
+      "应用数学",
+      "优化",
+      "计算建模"
+    ],
+    "concentrationsEn": [
+      "Applied Mathematics",
+      "Optimization",
+      "Computational Modeling"
+    ],
+    "positioningZh": "适合应用数学、优化、统计、建模、计算科学和工程数学方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-mathematics"
+  },
+  {
+    "nameEn": "MSc in Applied Mathematics",
+    "nameZh": "应用数学理学硕士",
+    "collegeEn": "College of Computing and Mathematical Sciences",
+    "collegeZh": "计算与数学科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "math-physics",
+      "math",
+      "ai-data"
+    ],
+    "idealBackground": [
+      "math",
+      "computer-science",
+      "electrical"
+    ],
+    "concentrationsZh": [
+      "应用数学"
+    ],
+    "concentrationsEn": [
+      "Applied Mathematics"
+    ],
+    "positioningZh": "适合数学、统计、计算建模、优化和数据科学基础较强的申请人。",
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-applied-mathematics"
+  },
+  {
+    "nameEn": "PhD in Aerospace Engineering",
+    "nameZh": "航空航天工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "aerospace",
+      "mechanical",
+      "robotics",
+      "math-physics"
+    ],
+    "idealBackground": [
+      "mechanical",
+      "electrical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "空间系统",
+      "导航制导与控制",
+      "空气动力学",
+      "结构"
+    ],
+    "concentrationsEn": [
+      "Space Systems",
+      "Guidance Navigation and Control",
+      "Aerodynamics",
+      "Structures"
+    ],
+    "positioningZh": "适合航空、航天、控制、流体、结构、空间系统和无人系统研究。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-aerospace-engineering"
+  },
+  {
+    "nameEn": "MSc in Aerospace Engineering",
+    "nameZh": "航空航天工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "aerospace",
+      "mechanical",
+      "robotics"
+    ],
+    "idealBackground": [
+      "mechanical",
+      "electrical"
+    ],
+    "concentrationsZh": [
+      "空间系统与技术",
+      "导航制导与控制系统"
+    ],
+    "concentrationsEn": [
+      "Space Systems and Technology",
+      "Guidance Navigation and Control Systems"
+    ],
+    "positioningZh": "适合机械、控制、飞行器、空间系统和导航方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-aerospace-engineering"
+  },
+  {
+    "nameEn": "PhD in Electrical Engineering",
+    "nameZh": "电气工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "electrical",
+      "cyber-systems",
+      "energy-sustainability",
+      "robotics"
+    ],
+    "idealBackground": [
+      "electrical",
+      "computer-science",
+      "mechanical"
+    ],
+    "concentrationsZh": [
+      "电力",
+      "电子",
+      "通信",
+      "控制",
+      "信号处理"
+    ],
+    "concentrationsEn": [
+      "Power",
+      "Electronics",
+      "Communications",
+      "Control",
+      "Signal Processing"
+    ],
+    "positioningZh": "适合电力电子、通信、信号处理、控制、智能系统和硬件方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-electrical-engineering"
+  },
+  {
+    "nameEn": "MSc in Electrical and Computer Engineering",
+    "nameZh": "电气与计算机工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences / College of Computing and Mathematical Sciences",
+    "collegeZh": "工程与物理科学学院 / 计算与数学科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "electrical",
+      "computer-science",
+      "cyber-systems",
+      "robotics"
+    ],
+    "idealBackground": [
+      "electrical",
+      "computer-science"
+    ],
+    "concentrationsZh": [
+      "电气工程",
+      "计算机工程"
+    ],
+    "concentrationsEn": [
+      "Electrical Engineering",
+      "Computer Engineering"
+    ],
+    "positioningZh": "适合 ECE、通信、芯片、嵌入式、计算机工程和智能系统背景。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-electrical-and-computer-engineering"
+  },
+  {
+    "nameEn": "PhD in Mechanical Engineering",
+    "nameZh": "机械工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "mechanical",
+      "robotics",
+      "energy-sustainability",
+      "materials-chemistry",
+      "aerospace"
+    ],
+    "idealBackground": [
+      "mechanical",
+      "materials",
+      "energy"
+    ],
+    "concentrationsZh": [
+      "热系统",
+      "制造",
+      "力学",
+      "机器人",
+      "能源系统"
+    ],
+    "concentrationsEn": [
+      "Thermal Systems",
+      "Manufacturing",
+      "Mechanics",
+      "Robotics",
+      "Energy Systems"
+    ],
+    "positioningZh": "适合机械设计、热流体、制造、力学、能源系统和机器人交叉方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-mechanical-engineering"
+  },
+  {
+    "nameEn": "MSc in Mechanical Engineering",
+    "nameZh": "机械工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "mechanical",
+      "robotics",
+      "energy-sustainability",
+      "aerospace"
+    ],
+    "idealBackground": [
+      "mechanical",
+      "electrical",
+      "energy"
+    ],
+    "concentrationsZh": [
+      "空间系统与技术",
+      "机械系统"
+    ],
+    "concentrationsEn": [
+      "Space Systems and Technology",
+      "Mechanical Systems"
+    ],
+    "positioningZh": "适合机械、能源、制造、控制和空间系统相关申请。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-mechanical-engineering"
+  },
+  {
+    "nameEn": "PhD in Materials Science and Engineering",
+    "nameZh": "材料科学与工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "materials-chemistry",
+      "chemical",
+      "energy-sustainability",
+      "math-physics"
+    ],
+    "idealBackground": [
+      "chemical",
+      "mechanical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "先进材料",
+      "冶金",
+      "能源材料",
+      "计算材料"
+    ],
+    "concentrationsEn": [
+      "Advanced Materials",
+      "Metallurgy",
+      "Energy Materials",
+      "Computational Materials"
+    ],
+    "positioningZh": "适合材料制备、表征、能源材料、金属和计算材料方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-materials-science-and-engineering"
+  },
+  {
+    "nameEn": "MSc in Materials Science and Engineering",
+    "nameZh": "材料科学与工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "materials-chemistry",
+      "chemical",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "chemical",
+      "mechanical"
+    ],
+    "concentrationsZh": [
+      "空间系统与技术",
+      "冶金工程",
+      "先进材料"
+    ],
+    "concentrationsEn": [
+      "Space Systems and Technology",
+      "Metallurgical Engineering",
+      "Advanced Materials"
+    ],
+    "positioningZh": "适合材料、化学、冶金、先进制造和能源材料背景。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-material-science-and-engineering"
+  },
+  {
+    "nameEn": "PhD in Chemical Engineering",
+    "nameZh": "化学工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "chemical",
+      "materials-chemistry",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "chemical",
+      "energy"
+    ],
+    "concentrationsZh": [
+      "过程系统",
+      "能源",
+      "可持续",
+      "食品过程"
+    ],
+    "concentrationsEn": [
+      "Process Systems",
+      "Energy",
+      "Sustainability",
+      "Food Process"
+    ],
+    "positioningZh": "适合化工过程、反应工程、能源、环境和食品工程方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemical-engineering"
+  },
+  {
+    "nameEn": "MSc in Chemical Engineering",
+    "nameZh": "化学工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "chemical",
+      "materials-chemistry",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "chemical",
+      "energy"
+    ],
+    "concentrationsZh": [
+      "食品过程工程与技术",
+      "冶金工程"
+    ],
+    "concentrationsEn": [
+      "Food Process Engineering and Technology",
+      "Metallurgical Engineering"
+    ],
+    "positioningZh": "适合化工、材料、食品工程和过程系统方向。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-chemical-engineering"
+  },
+  {
+    "nameEn": "PhD in Civil and Environmental Engineering",
+    "nameZh": "土木与环境工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "civil",
+      "energy-sustainability",
+      "systems-management",
+      "math-physics"
+    ],
+    "idealBackground": [
+      "civil",
+      "mechanical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "基础设施",
+      "结构",
+      "环境",
+      "交通",
+      "城市系统"
+    ],
+    "concentrationsEn": [
+      "Infrastructure",
+      "Structures",
+      "Environment",
+      "Transportation",
+      "Urban Systems"
+    ],
+    "positioningZh": "适合土木、基础设施、结构、环境、交通和城市系统研究。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-civil-and-environmental-engineering"
+  },
+  {
+    "nameEn": "MSc in Civil and Infrastructural Engineering",
+    "nameZh": "土木与基础设施工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "civil",
+      "energy-sustainability",
+      "systems-management"
+    ],
+    "idealBackground": [
+      "civil",
+      "mechanical"
+    ],
+    "concentrationsZh": [
+      "土木工程",
+      "基础设施工程"
+    ],
+    "concentrationsEn": [
+      "Civil Engineering",
+      "Infrastructural Engineering"
+    ],
+    "positioningZh": "适合土木、结构、交通、环境和基础设施方向。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-civil-and-infrastructural-engineering"
+  },
+  {
+    "nameEn": "PhD in Petroleum Engineering",
+    "nameZh": "石油工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "energy-sustainability",
+      "energy",
+      "chemical",
+      "math-physics"
+    ],
+    "idealBackground": [
+      "energy",
+      "chemical",
+      "mechanical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "储层",
+      "钻井",
+      "生产",
+      "能源转型"
+    ],
+    "concentrationsEn": [
+      "Reservoir",
+      "Drilling",
+      "Production",
+      "Energy Transition"
+    ],
+    "positioningZh": "适合油气、储层、能源开发、地质工程和数值模拟背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-petroleum-engineering"
+  },
+  {
+    "nameEn": "MSc in Petroleum Engineering",
+    "nameZh": "石油工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "energy-sustainability",
+      "energy",
+      "chemical"
+    ],
+    "idealBackground": [
+      "energy",
+      "chemical",
+      "mechanical"
+    ],
+    "concentrationsZh": [
+      "石油工程"
+    ],
+    "concentrationsEn": [
+      "Petroleum Engineering"
+    ],
+    "positioningZh": "适合石油、能源、化工和地下资源方向。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-petroleum-engineering"
+  },
+  {
+    "nameEn": "PhD in Nuclear Engineering",
+    "nameZh": "核工程博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "energy-sustainability",
+      "energy",
+      "math-physics",
+      "mechanical"
+    ],
+    "idealBackground": [
+      "energy",
+      "mechanical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "核系统",
+      "安全",
+      "辐射",
+      "能源"
+    ],
+    "concentrationsEn": [
+      "Nuclear Systems",
+      "Safety",
+      "Radiation",
+      "Energy"
+    ],
+    "positioningZh": "适合核工程、辐射、能源系统、安全分析和物理建模背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-nuclear-engineering"
+  },
+  {
+    "nameEn": "MSc in Nuclear Engineering",
+    "nameZh": "核工程理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "energy-sustainability",
+      "energy",
+      "math-physics"
+    ],
+    "idealBackground": [
+      "energy",
+      "mechanical",
+      "math"
+    ],
+    "concentrationsZh": [
+      "核工程"
+    ],
+    "concentrationsEn": [
+      "Nuclear Engineering"
+    ],
+    "positioningZh": "适合核能、能源工程、物理和安全评估方向。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-nuclear-engineering"
+  },
+  {
+    "nameEn": "PhD in Engineering Systems and Management",
+    "nameZh": "工程系统与管理博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "systems-management",
+      "management",
+      "energy-sustainability",
+      "ai-data"
+    ],
+    "idealBackground": [
+      "management",
+      "industrial",
+      "computer-science",
+      "civil"
+    ],
+    "concentrationsZh": [
+      "技术管理",
+      "复杂系统",
+      "创新创业",
+      "运营"
+    ],
+    "concentrationsEn": [
+      "Technology Management",
+      "Complex Systems",
+      "Innovation",
+      "Operations"
+    ],
+    "positioningZh": "适合工程管理、复杂系统、技术创新、运营和政策交叉背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-engineering-systems-and-management"
+  },
+  {
+    "nameEn": "MSc in Engineering Systems and Management",
+    "nameZh": "工程系统与管理理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "systems-management",
+      "management",
+      "ai-data"
+    ],
+    "idealBackground": [
+      "management",
+      "industrial",
+      "computer-science"
+    ],
+    "concentrationsZh": [
+      "技术管理创新与创业",
+      "复杂系统采办与管理"
+    ],
+    "concentrationsEn": [
+      "Technology Management Innovation and Entrepreneurship",
+      "Complex Systems Acquisition and Management"
+    ],
+    "positioningZh": "适合技术管理、工程系统、创新创业或项目管理路径。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-engineering-systems-and-management"
+  },
+  {
+    "nameEn": "MSc in Health Systems Management",
+    "nameZh": "健康系统管理理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "systems-management",
+      "bio-health",
+      "management"
+    ],
+    "idealBackground": [
+      "management",
+      "biomedical",
+      "industrial"
+    ],
+    "concentrationsZh": [
+      "健康系统",
+      "运营管理",
+      "医疗质量"
+    ],
+    "concentrationsEn": [
+      "Health Systems",
+      "Operations Management",
+      "Healthcare Quality"
+    ],
+    "positioningZh": "适合医疗管理、工程管理、运营、质量改进和健康系统方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-health-systems-management"
+  },
+  {
+    "nameEn": "MEng in Health, Safety and Environmental Engineering",
+    "nameZh": "健康、安全与环境工程工程硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "civil",
+      "energy-sustainability",
+      "chemical",
+      "systems-management"
+    ],
+    "idealBackground": [
+      "civil",
+      "chemical",
+      "energy"
+    ],
+    "concentrationsZh": [
+      "健康安全环境",
+      "HSE 工程"
+    ],
+    "concentrationsEn": [
+      "Health, Safety and Environmental Engineering",
+      "HSE Engineering"
+    ],
+    "positioningZh": "适合 HSE、环境、能源、化工和工程安全方向。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-eng-in-health-safety-and-environment-engineering"
+  },
+  {
+    "nameEn": "PhD in Chemistry",
+    "nameZh": "化学博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "materials-chemistry",
+      "chemical",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "chemical",
+      "materials"
+    ],
+    "concentrationsZh": [
+      "化学",
+      "材料化学",
+      "能源化学"
+    ],
+    "concentrationsEn": [
+      "Chemistry",
+      "Materials Chemistry",
+      "Energy Chemistry"
+    ],
+    "positioningZh": "适合化学、材料化学、催化、能源化学和分析方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemistry"
+  },
+  {
+    "nameEn": "MSc in Applied Chemistry",
+    "nameZh": "应用化学理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "materials-chemistry",
+      "chemical",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "chemical",
+      "materials"
+    ],
+    "concentrationsZh": [
+      "应用化学"
+    ],
+    "concentrationsEn": [
+      "Applied Chemistry"
+    ],
+    "positioningZh": "适合化学、材料、能源化学和分析测试方向。",
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-applied-chemistry"
+  },
+  {
+    "nameEn": "PhD in Earth Sciences",
+    "nameZh": "地球科学博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "energy-sustainability",
+      "math-physics",
+      "civil"
+    ],
+    "idealBackground": [
+      "energy",
+      "civil",
+      "math"
+    ],
+    "concentrationsZh": [
+      "地球科学",
+      "地下资源",
+      "地质建模"
+    ],
+    "concentrationsEn": [
+      "Earth Sciences",
+      "Subsurface Resources",
+      "Geological Modeling"
+    ],
+    "positioningZh": "适合地质、地下资源、能源、遥感、数值模拟和地球物理方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-earth-sciences"
+  },
+  {
+    "nameEn": "PhD in Physics",
+    "nameZh": "物理博士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "math-physics",
+      "materials-chemistry",
+      "energy-sustainability"
+    ],
+    "idealBackground": [
+      "math",
+      "materials",
+      "energy"
+    ],
+    "concentrationsZh": [
+      "物理",
+      "凝聚态",
+      "能源物理",
+      "计算物理"
+    ],
+    "concentrationsEn": [
+      "Physics",
+      "Condensed Matter",
+      "Energy Physics",
+      "Computational Physics"
+    ],
+    "positioningZh": "适合物理、材料物理、能源物理和计算物理方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-physics"
+  },
+  {
+    "nameEn": "MSc in Medical Physics",
+    "nameZh": "医学物理理学硕士",
+    "collegeEn": "College of Engineering and Physical Sciences",
+    "collegeZh": "工程与物理科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "math-physics",
+      "bio-health",
+      "biomedical"
+    ],
+    "idealBackground": [
+      "math",
+      "biomedical",
+      "electrical"
+    ],
+    "concentrationsZh": [
+      "医学物理",
+      "放射物理"
+    ],
+    "concentrationsEn": [
+      "Medical Physics",
+      "Radiation Physics"
+    ],
+    "positioningZh": "适合物理、生医工程、医学影像和放射物理方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-medical-physics"
+  },
+  {
+    "nameEn": "PhD in Biomedical Engineering",
+    "nameZh": "生物医学工程博士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "bio-health",
+      "biomedical",
+      "ai-data",
+      "materials-chemistry",
+      "electrical"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "computer-science",
+      "chemical",
+      "electrical"
+    ],
+    "concentrationsZh": [
+      "生医器械",
+      "医学影像",
+      "计算健康",
+      "生物材料"
+    ],
+    "concentrationsEn": [
+      "Biomedical Devices",
+      "Medical Imaging",
+      "Computational Health",
+      "Biomaterials"
+    ],
+    "positioningZh": "适合生医工程、医学影像、医疗 AI、材料和器械方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-engineering"
+  },
+  {
+    "nameEn": "MSc in Biomedical Engineering",
+    "nameZh": "生物医学工程理学硕士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "bio-health",
+      "biomedical",
+      "ai-data",
+      "electrical"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "computer-science",
+      "electrical"
+    ],
+    "concentrationsZh": [
+      "生物医学工程"
+    ],
+    "concentrationsEn": [
+      "Biomedical Engineering"
+    ],
+    "positioningZh": "适合生医、电子、计算机、医学影像和医学交叉背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-biomedical-engineering"
+  },
+  {
+    "nameEn": "MSc in Digital Health",
+    "nameZh": "数字健康理学硕士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "bio-health",
+      "ai-data",
+      "computer-science",
+      "systems-management"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "computer-science",
+      "management"
+    ],
+    "concentrationsZh": [
+      "数字健康",
+      "健康数据",
+      "医疗 AI"
+    ],
+    "concentrationsEn": [
+      "Digital Health",
+      "Health Data",
+      "Healthcare AI"
+    ],
+    "positioningZh": "适合医疗数据、AI 健康、公共卫生技术和数字医疗产品方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-digital-health"
+  },
+  {
+    "nameEn": "PhD in Biomedical Sciences",
+    "nameZh": "生物医学科学博士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "bio-health",
+      "biomedical",
+      "materials-chemistry"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "chemical"
+    ],
+    "concentrationsZh": [
+      "生物医学科学",
+      "转化医学",
+      "生命科学"
+    ],
+    "concentrationsEn": [
+      "Biomedical Sciences",
+      "Translational Medicine",
+      "Life Sciences"
+    ],
+    "positioningZh": "适合生物医学、生命科学、医学基础研究和转化医学背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-science"
+  },
+  {
+    "nameEn": "PhD in Molecular Life Sciences",
+    "nameZh": "分子生命科学博士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "bio-health",
+      "biomedical",
+      "materials-chemistry"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "chemical"
+    ],
+    "concentrationsZh": [
+      "分子生命科学",
+      "细胞与分子生物学"
+    ],
+    "concentrationsEn": [
+      "Molecular Life Sciences",
+      "Cell and Molecular Biology"
+    ],
+    "positioningZh": "适合分子生物学、生命科学、生化和医学基础研究方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-molecular-life-sciences"
+  },
+  {
+    "nameEn": "MSc in Molecular Life Sciences",
+    "nameZh": "分子生命科学理学硕士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "bio-health",
+      "biomedical",
+      "materials-chemistry"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "chemical"
+    ],
+    "concentrationsZh": [
+      "分子生命科学"
+    ],
+    "concentrationsEn": [
+      "Molecular Life Sciences"
+    ],
+    "positioningZh": "适合生命科学、生物医学、生化和基础医学背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-molecular-life-sciences"
+  },
+  {
+    "nameEn": "PhD in Public Health",
+    "nameZh": "公共卫生博士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "phd"
+    ],
+    "keywords": [
+      "bio-health",
+      "systems-management",
+      "ai-data"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "management",
+      "computer-science"
+    ],
+    "concentrationsZh": [
+      "公共卫生",
+      "流行病学",
+      "健康数据"
+    ],
+    "concentrationsEn": [
+      "Public Health",
+      "Epidemiology",
+      "Health Data"
+    ],
+    "positioningZh": "适合公共卫生、流行病学、健康数据和医疗政策方向。",
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-public-health-and-epidemiology"
+  },
+  {
+    "nameEn": "Master of Public Health",
+    "nameZh": "公共卫生硕士",
+    "collegeEn": "College of Medicine and Health Sciences",
+    "collegeZh": "医学与健康科学学院",
+    "degrees": [
+      "master"
+    ],
+    "keywords": [
+      "bio-health",
+      "systems-management",
+      "ai-data"
+    ],
+    "idealBackground": [
+      "biomedical",
+      "management",
+      "computer-science"
+    ],
+    "concentrationsZh": [
+      "公共卫生"
+    ],
+    "concentrationsEn": [
+      "Public Health"
+    ],
+    "positioningZh": "适合公共卫生、健康管理、医疗数据和流行病学背景。",
+    "officialUrl": "https://www.ku.ac.ae/program/master-of-public-health-mph"
+  }
+]

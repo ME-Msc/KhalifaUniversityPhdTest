@@ -1,0 +1,24 @@
+{
+  "official": [
+    {
+      "label": "Khalifa University Graduate Programs",
+      "url": "https://www.ku.ac.ae/academics/graduate-programs"
+    },
+    {
+      "label": "Khalifa University Postgraduate Admissions",
+      "url": "https://www.ku.ac.ae/postgraduate-admissions"
+    },
+    {
+      "label": "Khalifa University Graduate Scholarships Catalog",
+      "url": "https://ku-ae.smartcatalogiq.com/en/2025-2026/graduate-catalog/graduate-admission-and-scholarships/scholarships"
+    },
+    {
+      "label": "Khalifa University CSC-KU Scholarship Catalog",
+      "url": "https://ku-ae.smartcatalogiq.com/en/2025-2026/graduate-catalog/graduate-admission-and-scholarships/scholarships"
+    }
+  ],
+  "notes": {
+    "cscAmount": "KU official scholarship catalog lists AED 9,200 monthly stipend from KU for CSC-KU PhD students and says an additional stipend is provided by CSC. The publicly referenced KU catalog does not state the CSC-side amount.",
+    "wqe": "Writing Qualifying Exam pass-rate and scholarship pause rule are marked in-app as non-official current-student feedback supplied by the seller."
+  }
+}

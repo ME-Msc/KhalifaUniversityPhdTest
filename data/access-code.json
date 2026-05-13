@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "algorithm": "PBKDF2-SHA256",
+  "iterations": 180000,
+  "salt": "GNFSzAWoiOr0PVlm86nXcg",
+  "hash": "SuGWM-7hScjalwf-uX7NV3l5JrxwgFLz0nDFTNF1KDQ",
+  "updatedAt": "2026-05-13T14:35:05.277Z",
+  "validUntil": "2026-05-15T14:35:05.277Z",
+  "codeLength": 10,
+  "codeFingerprint": "69d7719c02"
+}
