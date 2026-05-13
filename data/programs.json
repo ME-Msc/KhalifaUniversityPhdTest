@@ -33,7 +33,13 @@
       "Software Engineering"
     ],
     "positioningZh": "适合算法、软件、数据、系统、网络安全或 AI 研究经历较强的申请人。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/phd-in-computer-science"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/phd-in-computer-science",
+    "facultyLinks": [
+      {
+        "label": "Computer Science 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Computer Science",
@@ -60,7 +66,13 @@
       "Artificial Intelligence"
     ],
     "positioningZh": "适合作为 AI、计算机、系统或数据方向进入 KU 研究路径的硕士项目。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-computer-science/"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-computer-science/",
+    "facultyLinks": [
+      {
+        "label": "Computer Science 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Computational Data Science",
@@ -91,7 +103,17 @@
       "Data Analytics"
     ],
     "positioningZh": "适合统计、编程、机器学习、数据分析和跨学科建模背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/msc-in-computational-data-science"
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-computational-data-science",
+    "facultyLinks": [
+      {
+        "label": "Computer Science 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+      },
+      {
+        "label": "Mathematics 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Computer and Information Engineering",
@@ -124,7 +146,13 @@
       "Optimization and Security"
     ],
     "positioningZh": "适合通信、网络、嵌入式、优化、安全、边缘计算和计算系统方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-computer-and-information-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-computer-and-information-engineering",
+    "facultyLinks": [
+      {
+        "label": "Computer and Information Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Robotics",
@@ -158,7 +186,13 @@
       "Perception"
     ],
     "positioningZh": "适合控制、感知、无人系统、自动驾驶、机电系统和机器人算法方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-robotics"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-robotics",
+    "facultyLinks": [
+      {
+        "label": "Computer and Information Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Robotics and Autonomous Systems",
@@ -188,7 +222,13 @@
       "Autonomous Systems"
     ],
     "positioningZh": "适合从机电、控制、AI、车辆或计算机视觉切入机器人研究的申请人。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-robotics-and-autonomous-systems"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-robotics-and-autonomous-systems",
+    "facultyLinks": [
+      {
+        "label": "Computer and Information Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Mathematics",
@@ -220,7 +260,13 @@
       "Computational Modeling"
     ],
     "positioningZh": "适合应用数学、优化、统计、建模、计算科学和工程数学方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-mathematics"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-mathematics",
+    "facultyLinks": [
+      {
+        "label": "Mathematics 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Applied Mathematics",
@@ -247,7 +293,13 @@
       "Applied Mathematics"
     ],
     "positioningZh": "适合数学、统计、计算建模、优化和数据科学基础较强的申请人。",
-    "officialUrl": "https://www.ku.ac.ae/program/msc-in-applied-mathematics"
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-applied-mathematics",
+    "facultyLinks": [
+      {
+        "label": "Mathematics 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Aerospace Engineering",
@@ -281,7 +333,13 @@
       "Structures"
     ],
     "positioningZh": "适合航空、航天、控制、流体、结构、空间系统和无人系统研究。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-aerospace-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-aerospace-engineering",
+    "facultyLinks": [
+      {
+        "label": "Aerospace Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-aerospace-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Aerospace Engineering",
@@ -309,7 +367,13 @@
       "Guidance Navigation and Control Systems"
     ],
     "positioningZh": "适合机械、控制、飞行器、空间系统和导航方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-aerospace-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-aerospace-engineering",
+    "facultyLinks": [
+      {
+        "label": "Aerospace Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-aerospace-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Electrical Engineering",
@@ -345,7 +409,13 @@
       "Signal Processing"
     ],
     "positioningZh": "适合电力电子、通信、信号处理、控制、智能系统和硬件方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-electrical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-electrical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Electrical Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-electrical-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Electrical and Computer Engineering",
@@ -374,7 +444,17 @@
       "Computer Engineering"
     ],
     "positioningZh": "适合 ECE、通信、芯片、嵌入式、计算机工程和智能系统背景。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-electrical-and-computer-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-electrical-and-computer-engineering",
+    "facultyLinks": [
+      {
+        "label": "Electrical Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-electrical-engineering"
+      },
+      {
+        "label": "Computer and Information Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Mechanical Engineering",
@@ -411,7 +491,13 @@
       "Energy Systems"
     ],
     "positioningZh": "适合机械设计、热流体、制造、力学、能源系统和机器人交叉方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-mechanical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-mechanical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Mechanical Engineering",
@@ -441,7 +527,13 @@
       "Mechanical Systems"
     ],
     "positioningZh": "适合机械、能源、制造、控制和空间系统相关申请。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-mechanical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-mechanical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Materials Science and Engineering",
@@ -475,7 +567,17 @@
       "Computational Materials"
     ],
     "positioningZh": "适合材料制备、表征、能源材料、金属和计算材料方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-materials-science-and-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-materials-science-and-engineering",
+    "facultyLinks": [
+      {
+        "label": "Mechanical and Nuclear Engineering / Materials 相关教师",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+      },
+      {
+        "label": "Chemistry 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Materials Science and Engineering",
@@ -505,7 +607,17 @@
       "Advanced Materials"
     ],
     "positioningZh": "适合材料、化学、冶金、先进制造和能源材料背景。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-material-science-and-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-material-science-and-engineering",
+    "facultyLinks": [
+      {
+        "label": "Mechanical and Nuclear Engineering / Materials 相关教师",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+      },
+      {
+        "label": "Chemistry 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Chemical Engineering",
@@ -537,7 +649,13 @@
       "Food Process"
     ],
     "positioningZh": "适合化工过程、反应工程、能源、环境和食品工程方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Chemical Engineering",
@@ -565,7 +683,13 @@
       "Metallurgical Engineering"
     ],
     "positioningZh": "适合化工、材料、食品工程和过程系统方向。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-chemical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-chemical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Civil and Environmental Engineering",
@@ -601,7 +725,13 @@
       "Urban Systems"
     ],
     "positioningZh": "适合土木、基础设施、结构、环境、交通和城市系统研究。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-civil-and-environmental-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-civil-and-environmental-engineering",
+    "facultyLinks": [
+      {
+        "label": "Civil and Environmental Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Civil and Infrastructural Engineering",
@@ -629,7 +759,13 @@
       "Infrastructural Engineering"
     ],
     "positioningZh": "适合土木、结构、交通、环境和基础设施方向。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-civil-and-infrastructural-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-civil-and-infrastructural-engineering",
+    "facultyLinks": [
+      {
+        "label": "Civil and Environmental Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Petroleum Engineering",
@@ -664,7 +800,13 @@
       "Energy Transition"
     ],
     "positioningZh": "适合油气、储层、能源开发、地质工程和数值模拟背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-petroleum-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-petroleum-engineering",
+    "facultyLinks": [
+      {
+        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Petroleum Engineering",
@@ -691,7 +833,13 @@
       "Petroleum Engineering"
     ],
     "positioningZh": "适合石油、能源、化工和地下资源方向。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-petroleum-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-petroleum-engineering",
+    "facultyLinks": [
+      {
+        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Nuclear Engineering",
@@ -725,7 +873,13 @@
       "Energy"
     ],
     "positioningZh": "适合核工程、辐射、能源系统、安全分析和物理建模背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-nuclear-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-nuclear-engineering",
+    "facultyLinks": [
+      {
+        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Nuclear Engineering",
@@ -752,7 +906,13 @@
       "Nuclear Engineering"
     ],
     "positioningZh": "适合核能、能源工程、物理和安全评估方向。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-nuclear-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-nuclear-engineering",
+    "facultyLinks": [
+      {
+        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Engineering Systems and Management",
@@ -787,7 +947,13 @@
       "Operations"
     ],
     "positioningZh": "适合工程管理、复杂系统、技术创新、运营和政策交叉背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-engineering-systems-and-management"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-engineering-systems-and-management",
+    "facultyLinks": [
+      {
+        "label": "Management Science and Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Engineering Systems and Management",
@@ -816,7 +982,13 @@
       "Complex Systems Acquisition and Management"
     ],
     "positioningZh": "适合技术管理、工程系统、创新创业或项目管理路径。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-engineering-systems-and-management"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-engineering-systems-and-management",
+    "facultyLinks": [
+      {
+        "label": "Management Science and Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Health Systems Management",
@@ -847,7 +1019,17 @@
       "Healthcare Quality"
     ],
     "positioningZh": "适合医疗管理、工程管理、运营、质量改进和健康系统方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/msc-in-health-systems-management"
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-health-systems-management",
+    "facultyLinks": [
+      {
+        "label": "Management Science and Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering"
+      },
+      {
+        "label": "Public Health and Epidemiology 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health"
+      }
+    ]
   },
   {
     "nameEn": "MEng in Health, Safety and Environmental Engineering",
@@ -877,7 +1059,17 @@
       "HSE Engineering"
     ],
     "positioningZh": "适合 HSE、环境、能源、化工和工程安全方向。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-eng-in-health-safety-and-environment-engineering"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-eng-in-health-safety-and-environment-engineering",
+    "facultyLinks": [
+      {
+        "label": "Civil and Environmental Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering"
+      },
+      {
+        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Chemistry",
@@ -907,7 +1099,13 @@
       "Energy Chemistry"
     ],
     "positioningZh": "适合化学、材料化学、催化、能源化学和分析方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemistry"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemistry",
+    "facultyLinks": [
+      {
+        "label": "Chemistry 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Applied Chemistry",
@@ -933,7 +1131,13 @@
       "Applied Chemistry"
     ],
     "positioningZh": "适合化学、材料、能源化学和分析测试方向。",
-    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-applied-chemistry"
+    "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-applied-chemistry",
+    "facultyLinks": [
+      {
+        "label": "Chemistry 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Earth Sciences",
@@ -964,7 +1168,13 @@
       "Geological Modeling"
     ],
     "positioningZh": "适合地质、地下资源、能源、遥感、数值模拟和地球物理方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-earth-sciences"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-earth-sciences",
+    "facultyLinks": [
+      {
+        "label": "Earth Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-earth-sciences"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Physics",
@@ -997,7 +1207,13 @@
       "Computational Physics"
     ],
     "positioningZh": "适合物理、材料物理、能源物理和计算物理方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-physics"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-physics",
+    "facultyLinks": [
+      {
+        "label": "Physics 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-physics"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Medical Physics",
@@ -1026,7 +1242,17 @@
       "Radiation Physics"
     ],
     "positioningZh": "适合物理、生医工程、医学影像和放射物理方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/msc-in-medical-physics"
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-medical-physics",
+    "facultyLinks": [
+      {
+        "label": "Physics 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-physics"
+      },
+      {
+        "label": "Medical Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Biomedical Engineering",
@@ -1062,7 +1288,17 @@
       "Biomaterials"
     ],
     "positioningZh": "适合生医工程、医学影像、医疗 AI、材料和器械方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Biomedical Engineering and Biotechnology 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-biomedical-engineering"
+      },
+      {
+        "label": "Medical Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Biomedical Engineering",
@@ -1090,7 +1326,17 @@
       "Biomedical Engineering"
     ],
     "positioningZh": "适合生医、电子、计算机、医学影像和医学交叉背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-biomedical-engineering"
+    "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-biomedical-engineering",
+    "facultyLinks": [
+      {
+        "label": "Biomedical Engineering and Biotechnology 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-biomedical-engineering"
+      },
+      {
+        "label": "Medical Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Digital Health",
@@ -1122,7 +1368,17 @@
       "Healthcare AI"
     ],
     "positioningZh": "适合医疗数据、AI 健康、公共卫生技术和数字医疗产品方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/msc-in-digital-health"
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-digital-health",
+    "facultyLinks": [
+      {
+        "label": "College of Medicine and Health Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences"
+      },
+      {
+        "label": "Computer Science 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Biomedical Sciences",
@@ -1152,7 +1408,17 @@
       "Life Sciences"
     ],
     "positioningZh": "适合生物医学、生命科学、医学基础研究和转化医学背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-science"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-science",
+    "facultyLinks": [
+      {
+        "label": "Medical Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+      },
+      {
+        "label": "Biological Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Molecular Life Sciences",
@@ -1180,7 +1446,13 @@
       "Cell and Molecular Biology"
     ],
     "positioningZh": "适合分子生物学、生命科学、生化和医学基础研究方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-molecular-life-sciences"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-molecular-life-sciences",
+    "facultyLinks": [
+      {
+        "label": "Biological Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences"
+      }
+    ]
   },
   {
     "nameEn": "MSc in Molecular Life Sciences",
@@ -1206,7 +1478,13 @@
       "Molecular Life Sciences"
     ],
     "positioningZh": "适合生命科学、生物医学、生化和基础医学背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/msc-in-molecular-life-sciences"
+    "officialUrl": "https://www.ku.ac.ae/program/msc-in-molecular-life-sciences",
+    "facultyLinks": [
+      {
+        "label": "Biological Sciences 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences"
+      }
+    ]
   },
   {
     "nameEn": "PhD in Public Health",
@@ -1237,7 +1515,13 @@
       "Health Data"
     ],
     "positioningZh": "适合公共卫生、流行病学、健康数据和医疗政策方向。",
-    "officialUrl": "https://www.ku.ac.ae/program/phd-in-public-health-and-epidemiology"
+    "officialUrl": "https://www.ku.ac.ae/program/phd-in-public-health-and-epidemiology",
+    "facultyLinks": [
+      {
+        "label": "Public Health and Epidemiology 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health"
+      }
+    ]
   },
   {
     "nameEn": "Master of Public Health",
@@ -1264,6 +1548,12 @@
       "Public Health"
     ],
     "positioningZh": "适合公共卫生、健康管理、医疗数据和流行病学背景。",
-    "officialUrl": "https://www.ku.ac.ae/program/master-of-public-health-mph"
+    "officialUrl": "https://www.ku.ac.ae/program/master-of-public-health-mph",
+    "facultyLinks": [
+      {
+        "label": "Public Health and Epidemiology 教师 / Faculty",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health"
+      }
+    ]
   }
 ]

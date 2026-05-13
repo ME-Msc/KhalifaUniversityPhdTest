@@ -419,11 +419,20 @@ function buildAdvice(profile, result) {
 }
 
 function buildSupervisorSuggestions(recommendations) {
-  return recommendations.slice(0, 4).map((program) => ({
-    title: `${program.nameZh} / ${program.nameEn}`,
-    text: `导师筛选应围绕 ${program.concentrationsZh.join("、")}。建议先打开对应项目页，再从院系 Faculty 或 Research Areas 里筛 3-5 位方向相近的导师。`,
-    url: program.officialUrl
-  }));
+  return recommendations.slice(0, 4).map((program) => {
+    const facultyLinks =
+      Array.isArray(program.facultyLinks) && program.facultyLinks.length > 0
+        ? program.facultyLinks
+        : [{ label: "KU 官方项目页 / Program page", url: program.officialUrl }];
+    const zhKeywords = program.concentrationsZh.join("、");
+    const enKeywords = program.concentrationsEn.join(", ");
+
+    return {
+      title: `${program.nameZh} / ${program.nameEn}`,
+      text: `${zhKeywords} / ${enKeywords}`,
+      links: facultyLinks
+    };
+  });
 }
 
 function buildScholarshipInfo(profile) {
@@ -438,12 +447,12 @@ function buildScholarshipInfo(profile) {
 
   return [
     {
-      title: "KU PhD Scholarship",
-      text: "官方奖学金目录列出 PhD Tier I 基本月津贴 AED 20,000；额外月津贴 AED 20,000 需满足审批与学业进展条件。"
+      title: "普通 KU PhD 奖学金预期：Tier III",
+      text: "按现有中国博士生样本，本工具默认把中国申请人的普通 KU PhD offer 预期写为 Research Path Tier III，而不是 Tier I/II。KU 官方目录中 Tier III 为 75% 学费减免、每月 AED 20,000 津贴，并包含教材、医保、签证/往返机票等支持；仍需以正式 scholarship letter 和 fee guide 为准。"
     },
     {
       title: "CSC-KU PhD Scholarship",
-      text: "KU 官方目录列出 CSC-KU PhD 学生由 KU 提供每月 AED 9,200，CSC 另提供 additional stipend；公开 KU 目录未写明 CSC 侧具体金额。"
+      text: "CSC-KU 属于另一条资助路径。KU 官方目录列出 CSC-KU PhD 学生由 KU 提供每月 AED 9,200，CSC 另提供 additional stipend；公开 KU 目录未写明 CSC 侧具体金额。"
     },
     {
       title: "Writing Qualifying Exam",

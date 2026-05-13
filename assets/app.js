@@ -20,11 +20,15 @@ const scholarshipList = document.querySelector("#scholarshipList");
 const liveWarnings = document.querySelector("#liveWarnings");
 const basisList = document.querySelector("#basisList");
 const resultPanel = document.querySelector("#resultPanel");
+const outcomeCard = document.querySelector("#outcomeCard");
 const prevStep = document.querySelector("#prevStep");
 const nextStep = document.querySelector("#nextStep");
 const generateReport = document.querySelector("#generateReport");
 const stepTabs = [...document.querySelectorAll(".step-tab")];
 const formSteps = [...document.querySelectorAll(".form-step")];
+
+const KU_APPLICATION_URL = "https://admissions.ku.ac.ae/";
+const KU_POSTGRADUATE_URL = "https://www.ku.ac.ae/postgraduate-admissions";
 
 const REGION_LABELS = {
   "north-america": "北美",
@@ -307,19 +311,85 @@ function renderRecommendations(items) {
 function renderInfoList(target, items) {
   target.innerHTML = items
     .map(
-      (item) => `
-        <article class="info-card">
-          <strong>${item.title}</strong>
-          <p>${item.text}</p>
-          ${item.url ? `<a href="${item.url}" target="_blank" rel="noreferrer">官方来源</a>` : ""}
-        </article>
-      `
+      (item) => {
+        const links = item.links ?? (item.url ? [{ label: "官方来源", url: item.url }] : []);
+        return `
+          <article class="info-card">
+            <strong>${item.title}</strong>
+            <p>${item.text}</p>
+            ${
+              links.length > 0
+                ? `<div class="link-list">${links
+                    .map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`)
+                    .join("")}</div>`
+                : ""
+            }
+          </article>
+        `;
+      }
     )
     .join("");
 }
 
 function renderAdvice(items) {
   adviceList.innerHTML = items.map((item) => `<li>${item}</li>`).join("");
+}
+
+function primaryAction(result) {
+  if (result.probability >= 70) {
+    return {
+      tone: "strong",
+      label: "高匹配，可以准备正式申请",
+      title: "把 KU 作为主申目标",
+      text: "先确认当季申请是否开放，再按推荐项目准备 SOP、Research Statement、推荐信和语言/GRE 材料。",
+      actions: [
+        { label: "打开 KU 申请入口", url: KU_APPLICATION_URL },
+        { label: "查看申请要求", url: KU_POSTGRADUATE_URL }
+      ]
+    };
+  }
+
+  if (result.probability <= 33) {
+    return {
+      tone: "low",
+      label: "当前风险较高",
+      title: "不建议只押 KU",
+      text: "这不代表不能留学，只是 KU 当前匹配度偏吃力。中东地区有不少奖学金丰厚的院校，可以先看店铺其他商品；后续会补一份中东地区选校指南。",
+      actions: [{ label: "查看 KU 官方要求", url: KU_POSTGRADUATE_URL }]
+    };
+  }
+
+  return {
+    tone: "medium",
+    label: "有机会，但需要补强",
+    title: "先补最短板，再决定是否递交",
+    text: "建议优先处理硬门槛、科研证据和导师匹配；如果推荐项目高度契合，可以把 KU 放入冲刺或重点尝试名单。",
+    actions: [{ label: "查看 KU 申请要求", url: KU_POSTGRADUATE_URL }]
+  };
+}
+
+function renderOutcome(result, profile) {
+  const action = primaryAction(result);
+  const topProgram = result.recommendations[0];
+  const failedMinimums = result.eligibility.filter((item) => !item.passed).length;
+  const fundingPoint =
+    profile.targetDegree === "master" ? "奖学金预期：以正式 offer 和 scholarship letter 为准" : "奖学金预期：博士按 Tier III / CSC-KU 分开判断";
+  const actionLinks = action.actions
+    .map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`)
+    .join("");
+
+  outcomeCard.className = `outcome-card ${action.tone}`;
+  outcomeCard.innerHTML = `
+    <span>${action.label}</span>
+    <h3>${action.title}</h3>
+    <p>${action.text}</p>
+    <div class="outcome-points">
+      <b>首选项目：${topProgram ? `${topProgram.nameZh} / ${topProgram.nameEn}` : "暂无明确推荐"}</b>
+      <b>硬门槛：${failedMinimums === 0 ? "已通过当前填写项" : `${failedMinimums} 项需先补齐`}</b>
+      <b>${fundingPoint}</b>
+    </div>
+    <div class="outcome-actions">${actionLinks}</div>
+  `;
 }
 
 function percent(value) {
@@ -340,7 +410,7 @@ function renderBasis(result) {
   basisList.innerHTML = `
     <article class="basis-card">
       <strong>计算依据</strong>
-      <p>成功率由硬性门槛、专业匹配和以下维度加权计算；当前权重分为 ${result.calculation.weightedScore}/100，学位难度系数为 ${result.calculation.degreeDifficulty}。</p>
+      <p><b>${result.calculation.weightedScore}/100</b> 为当前申请力加权分，学位难度系数 <b>${result.calculation.degreeDifficulty}</b>。分数用于排序优先级，不等于录取承诺。</p>
       <div class="basis-grid">
         ${items.map(([label, value]) => `<span>${label}<b>${percent(value)}</b></span>`).join("")}
       </div>
@@ -413,11 +483,13 @@ function drawRadar(dimensions, probability) {
 }
 
 function renderResult() {
-  const result = calculateProfile(buildProfile(), programs, schools);
+  const profile = buildProfile();
+  const result = calculateProfile(profile, programs, schools);
   reportGenerated = true;
   resultPanel.hidden = false;
   scoreNumber.textContent = `${result.probability}%`;
   scoreValue.textContent = result.band;
+  renderOutcome(result, profile);
   renderWarnings(result.warnings);
   renderBasis(result);
   renderEligibility(result.eligibility);
