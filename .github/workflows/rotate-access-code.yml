@@ -55,8 +55,6 @@ jobs:
             git push
           fi
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Prepare static site
         run: |
           mkdir _site
