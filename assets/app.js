@@ -73,6 +73,9 @@ async function hashCode(code, config) {
 
 async function verifyAccessCode(code) {
   if (!accessConfig?.enabled) return true;
+  if (accessConfig.validUntil && Date.now() > new Date(accessConfig.validUntil).getTime()) {
+    return false;
+  }
   const digest = await hashCode(code, accessConfig);
   return digest === accessConfig.hash;
 }
@@ -94,7 +97,10 @@ function hasCurrentUnlock() {
 
   try {
     const parsed = JSON.parse(saved);
-    return new Date(parsed.unlockedAt).getTime() >= new Date(accessConfig.updatedAt).getTime();
+    const unlockedAt = new Date(parsed.unlockedAt).getTime();
+    const updatedAt = new Date(accessConfig.updatedAt).getTime();
+    const validUntil = accessConfig.validUntil ? new Date(accessConfig.validUntil).getTime() : Number.POSITIVE_INFINITY;
+    return unlockedAt >= updatedAt && Date.now() <= validUntil;
   } catch {
     localStorage.removeItem(ACCESS_STORAGE_KEY);
     return false;

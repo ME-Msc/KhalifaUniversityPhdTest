@@ -8,7 +8,34 @@
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <main class="app-shell">
+    <div id="accessGate" class="access-gate" hidden>
+      <section class="gate-panel" aria-labelledby="gateTitle">
+        <img
+          class="ku-logo"
+          src="https://www.ku.ac.ae/wp-content/uploads/2021/08/cropped-logo.png"
+          alt="Khalifa University"
+        />
+        <h1 id="gateTitle">KU Compass</h1>
+        <p>输入验证码查看哈利法大学专业目录。</p>
+        <form id="accessForm" class="gate-form">
+          <label for="accessCode">验证码</label>
+          <div class="gate-row">
+            <input
+              id="accessCode"
+              name="accessCode"
+              autocomplete="one-time-code"
+              autocapitalize="characters"
+              spellcheck="false"
+              required
+            />
+            <button type="submit">进入</button>
+          </div>
+          <p id="accessMessage" class="form-message" role="status"></p>
+        </form>
+      </section>
+    </div>
+
+    <main id="programApp" class="app-shell" hidden>
       <header class="topbar">
         <div class="brand-lockup">
           <img
