@@ -58,7 +58,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp index.html current-code.txt _site/
+          cp index.html programs.html current-code.txt _site/
           cp -R assets data _site/
       - uses: actions/upload-pages-artifact@v3
         with:

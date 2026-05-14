@@ -69,6 +69,14 @@ a {
   text-decoration: none;
 }
 
+.top-link {
+  display: inline-grid;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 7px;
+}
+
 .access-gate {
   min-height: 100vh;
   display: grid;
@@ -614,13 +622,13 @@ select:focus {
 
 .program-card {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 8px 12px;
+  grid-template-columns: 1fr;
+  gap: 8px;
   padding: 14px;
 }
 
 .program-card h3 {
-  margin: 4px 0 2px;
+  margin: 0;
   font-size: 17px;
   line-height: 1.25;
 }
@@ -648,6 +656,22 @@ select:focus {
   line-height: 1.45;
 }
 
+.full-program-link {
+  display: block;
+  grid-column: 1 / -1;
+  padding: 12px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  color: #fff;
+  background: var(--accent);
+  text-align: center;
+}
+
+.program-catalog {
+  display: grid;
+  gap: 12px;
+}
+
 .info-card {
   padding: 13px;
 }
@@ -659,6 +683,22 @@ select:focus {
 .info-card a {
   display: inline-block;
   margin-top: 8px;
+}
+
+.info-points {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.info-points li {
+  padding: 9px 10px;
+  border-radius: 7px;
+  color: var(--ink);
+  background: var(--soft);
+  line-height: 1.45;
 }
 
 .link-list {

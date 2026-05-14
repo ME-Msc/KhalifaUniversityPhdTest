@@ -19,7 +19,7 @@
   ],
   "notes": {
     "phdFundingExpectation": "For Chinese PhD students, the in-app practical funding note follows current-student feedback supplied by the seller: KU scholarship and KU-CSC are presented as two common paths, with KU scholarship cash-flow estimates shown separately from official award language.",
-    "cscAmount": "KU-CSC details are shown as offer-dependent because the public KU catalog and CSC-side award terms may not provide one fixed public amount for every student.",
+    "cscAmount": "The in-app KU-CSC cash-flow note follows seller/current-student feedback: KU provides AED 9,200 monthly and CSC provides USD 2,000 monthly; exact disbursement and award terms remain subject to each student's offer, CSC approval, and scholarship letter.",
     "wqe": "Writing Qualifying Exam pass-rate, scholarship pause rules, GPA pause thresholds, and Q1 graduation note are marked in-app as non-official current-student feedback supplied by the seller."
   }
 }

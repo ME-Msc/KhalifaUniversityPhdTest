@@ -26,7 +26,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp index.html _site/
+          cp index.html programs.html _site/
           if [ -f current-code.txt ]; then cp current-code.txt _site/; fi
           cp -R assets data _site/
       - uses: actions/upload-pages-artifact@v3

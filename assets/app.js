@@ -288,23 +288,18 @@ function renderWarnings(items) {
 }
 
 function renderRecommendations(items) {
-  recommendations.innerHTML = items
+  const cards = items
     .map(
       (program) => `
         <article class="program-card">
-          <div>
-            <span>${program.collegeZh}</span>
-            <h3>${program.nameZh}</h3>
-            <small>${program.nameEn}</small>
-          </div>
-          <strong>${Math.round(program.fit * 100)}%</strong>
-          <p>${program.positioningZh}</p>
+          <h3>${program.nameZh} / ${program.nameEn}</h3>
           <small>${program.concentrationsZh.join(" / ")}</small>
-          <a href="${program.officialUrl}" target="_blank" rel="noreferrer">查看 KU 官方项目页</a>
+          <a href="${program.officialUrl}" target="_blank" rel="noreferrer">官网专业页</a>
         </article>
       `
     )
     .join("");
+  recommendations.innerHTML = `${cards}<a class="full-program-link" href="programs.html">查看全部专业目录</a>`;
 }
 
 function renderInfoList(target, items) {
@@ -312,10 +307,12 @@ function renderInfoList(target, items) {
     .map(
       (item) => {
         const links = item.links ?? (item.url ? [{ label: "官方来源", url: item.url }] : []);
+        const points = item.points?.map((point) => `<li>${point}</li>`).join("") ?? "";
         return `
           <article class="info-card">
             <strong>${item.title}</strong>
-            <p>${item.text}</p>
+            ${item.text ? `<p>${item.text}</p>` : ""}
+            ${points ? `<ul class="info-points">${points}</ul>` : ""}
             ${
               links.length > 0
                 ? `<div class="link-list">${links
