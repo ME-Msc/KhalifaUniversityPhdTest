@@ -36,8 +36,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/phd-in-computer-science",
     "facultyLinks": [
       {
-        "label": "Computer Science 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+        "label": "计算机科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science#people"
       }
     ]
   },
@@ -69,8 +69,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-computer-science/",
     "facultyLinks": [
       {
-        "label": "Computer Science 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+        "label": "计算机科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science#people"
       }
     ]
   },
@@ -106,12 +106,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/msc-in-computational-data-science",
     "facultyLinks": [
       {
-        "label": "Computer Science 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+        "label": "计算机科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science#people"
       },
       {
-        "label": "Mathematics 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics"
+        "label": "数学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics#people"
       }
     ]
   },
@@ -149,8 +149,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-computer-and-information-engineering",
     "facultyLinks": [
       {
-        "label": "Computer and Information Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+        "label": "计算机与信息工程老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering#people"
       }
     ]
   },
@@ -189,8 +189,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-robotics",
     "facultyLinks": [
       {
-        "label": "Computer and Information Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+        "label": "计算机与信息工程老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering#people"
       }
     ]
   },
@@ -225,8 +225,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-robotics-and-autonomous-systems",
     "facultyLinks": [
       {
-        "label": "Computer and Information Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+        "label": "计算机与信息工程老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering#people"
       }
     ]
   },
@@ -263,8 +263,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-mathematics",
     "facultyLinks": [
       {
-        "label": "Mathematics 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics"
+        "label": "数学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics#people"
       }
     ]
   },
@@ -296,8 +296,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/msc-in-applied-mathematics",
     "facultyLinks": [
       {
-        "label": "Mathematics 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics"
+        "label": "数学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-computing-and-mathematical-sciences/department/department-of-mathematics#people"
       }
     ]
   },
@@ -336,8 +336,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-aerospace-engineering",
     "facultyLinks": [
       {
-        "label": "Aerospace Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-aerospace-engineering"
+        "label": "航空航天工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-aerospace-engineering#people"
       }
     ]
   },
@@ -370,8 +370,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-aerospace-engineering",
     "facultyLinks": [
       {
-        "label": "Aerospace Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-aerospace-engineering"
+        "label": "航空航天工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-aerospace-engineering#people"
       }
     ]
   },
@@ -412,8 +412,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-electrical-engineering",
     "facultyLinks": [
       {
-        "label": "Electrical Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-electrical-engineering"
+        "label": "电气工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-electrical-engineering#people"
       }
     ]
   },
@@ -447,12 +447,12 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-electrical-and-computer-engineering",
     "facultyLinks": [
       {
-        "label": "Electrical Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-electrical-engineering"
+        "label": "电气工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-electrical-engineering#people"
       },
       {
-        "label": "Computer and Information Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering"
+        "label": "计算机与信息工程老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-and-information-engineering#people"
       }
     ]
   },
@@ -494,8 +494,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-mechanical-engineering",
     "facultyLinks": [
       {
-        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+        "label": "机械与核工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering#people"
       }
     ]
   },
@@ -530,8 +530,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-mechanical-engineering",
     "facultyLinks": [
       {
-        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+        "label": "机械与核工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering#people"
       }
     ]
   },
@@ -570,12 +570,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-materials-science-and-engineering",
     "facultyLinks": [
       {
-        "label": "Mechanical and Nuclear Engineering / Materials 相关教师",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+        "label": "机械与核工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering#people"
       },
       {
-        "label": "Chemistry 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+        "label": "化学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry#people"
       }
     ]
   },
@@ -610,12 +610,12 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-material-science-and-engineering",
     "facultyLinks": [
       {
-        "label": "Mechanical and Nuclear Engineering / Materials 相关教师",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+        "label": "机械与核工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering#people"
       },
       {
-        "label": "Chemistry 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+        "label": "化学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry#people"
       }
     ]
   },
@@ -652,8 +652,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemical-engineering",
     "facultyLinks": [
       {
-        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+        "label": "化学与石油工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering#people"
       }
     ]
   },
@@ -686,8 +686,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-chemical-engineering",
     "facultyLinks": [
       {
-        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+        "label": "化学与石油工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering#people"
       }
     ]
   },
@@ -728,8 +728,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-civil-and-environmental-engineering",
     "facultyLinks": [
       {
-        "label": "Civil and Environmental Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering"
+        "label": "土木与环境工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering#people"
       }
     ]
   },
@@ -762,8 +762,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/msc-in-civil-and-infrastructural-engineering",
     "facultyLinks": [
       {
-        "label": "Civil and Environmental Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering"
+        "label": "土木与环境工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering#people"
       }
     ]
   },
@@ -803,8 +803,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-petroleum-engineering",
     "facultyLinks": [
       {
-        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+        "label": "化学与石油工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering#people"
       }
     ]
   },
@@ -836,8 +836,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-petroleum-engineering",
     "facultyLinks": [
       {
-        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+        "label": "化学与石油工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering#people"
       }
     ]
   },
@@ -876,8 +876,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-nuclear-engineering",
     "facultyLinks": [
       {
-        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+        "label": "机械与核工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering#people"
       }
     ]
   },
@@ -909,8 +909,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-nuclear-engineering",
     "facultyLinks": [
       {
-        "label": "Mechanical and Nuclear Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering"
+        "label": "机械与核工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-mechanical-and-nuclear-engineering#people"
       }
     ]
   },
@@ -950,8 +950,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-engineering-systems-and-management",
     "facultyLinks": [
       {
-        "label": "Management Science and Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering"
+        "label": "管理科学与工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering#people"
       }
     ]
   },
@@ -985,8 +985,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-sc-in-engineering-systems-and-management",
     "facultyLinks": [
       {
-        "label": "Management Science and Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering"
+        "label": "管理科学与工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering#people"
       }
     ]
   },
@@ -1022,12 +1022,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/msc-in-health-systems-management",
     "facultyLinks": [
       {
-        "label": "Management Science and Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering"
+        "label": "管理科学与工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-management-science-and-engineering#people"
       },
       {
-        "label": "Public Health and Epidemiology 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health"
+        "label": "公共卫生与流行病学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health#people"
       }
     ]
   },
@@ -1062,12 +1062,12 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/m-eng-in-health-safety-and-environment-engineering",
     "facultyLinks": [
       {
-        "label": "Civil and Environmental Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering"
+        "label": "土木与环境工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-civil-infrastructure-and-environmental-engineering#people"
       },
       {
-        "label": "Chemical and Petroleum Engineering 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering"
+        "label": "化学与石油工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-chemical-and-petroleum-engineering#people"
       }
     ]
   },
@@ -1102,8 +1102,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-chemistry",
     "facultyLinks": [
       {
-        "label": "Chemistry 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+        "label": "化学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry#people"
       }
     ]
   },
@@ -1134,8 +1134,8 @@
     "officialUrl": "https://www.ku.ac.ae/academics/graduate-programs/master-of-science-in-applied-chemistry",
     "facultyLinks": [
       {
-        "label": "Chemistry 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry"
+        "label": "化学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-chemistry#people"
       }
     ]
   },
@@ -1171,8 +1171,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-earth-sciences",
     "facultyLinks": [
       {
-        "label": "Earth Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-earth-sciences"
+        "label": "地球科学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-earth-sciences#people"
       }
     ]
   },
@@ -1210,8 +1210,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-physics",
     "facultyLinks": [
       {
-        "label": "Physics 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-physics"
+        "label": "物理老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-physics#people"
       }
     ]
   },
@@ -1245,12 +1245,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/msc-in-medical-physics",
     "facultyLinks": [
       {
-        "label": "Physics 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-physics"
+        "label": "物理老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-arts-and-sciences/department/department-of-physics#people"
       },
       {
-        "label": "Medical Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+        "label": "医学科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences#people"
       }
     ]
   },
@@ -1291,12 +1291,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-engineering",
     "facultyLinks": [
       {
-        "label": "Biomedical Engineering and Biotechnology 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-biomedical-engineering"
+        "label": "生物医学工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-biomedical-engineering#people"
       },
       {
-        "label": "Medical Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+        "label": "医学科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences#people"
       }
     ]
   },
@@ -1329,12 +1329,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/master-of-science-in-biomedical-engineering",
     "facultyLinks": [
       {
-        "label": "Biomedical Engineering and Biotechnology 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-biomedical-engineering"
+        "label": "生物医学工程老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-engineering/department/department-of-biomedical-engineering#people"
       },
       {
-        "label": "Medical Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+        "label": "医学科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences#people"
       }
     ]
   },
@@ -1371,12 +1371,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/msc-in-digital-health",
     "facultyLinks": [
       {
-        "label": "College of Medicine and Health Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences"
+        "label": "医学与健康科学学院老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences#people"
       },
       {
-        "label": "Computer Science 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-computer-science"
+        "label": "计算机科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-computer-science#people"
       }
     ]
   },
@@ -1411,12 +1411,12 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-biomedical-science",
     "facultyLinks": [
       {
-        "label": "Medical Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences"
+        "label": "医学科学老师页面",
+        "url": "https://www.ku.ac.ae/department/department-of-medical-sciences#people"
       },
       {
-        "label": "Biological Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences"
+        "label": "生物科学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences#people"
       }
     ]
   },
@@ -1449,8 +1449,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-molecular-life-sciences",
     "facultyLinks": [
       {
-        "label": "Biological Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences"
+        "label": "生物科学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences#people"
       }
     ]
   },
@@ -1481,8 +1481,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/msc-in-molecular-life-sciences",
     "facultyLinks": [
       {
-        "label": "Biological Sciences 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences"
+        "label": "生物科学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-biological-sciences#people"
       }
     ]
   },
@@ -1518,8 +1518,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/phd-in-public-health-and-epidemiology",
     "facultyLinks": [
       {
-        "label": "Public Health and Epidemiology 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health"
+        "label": "公共卫生与流行病学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health#people"
       }
     ]
   },
@@ -1551,8 +1551,8 @@
     "officialUrl": "https://www.ku.ac.ae/program/master-of-public-health-mph",
     "facultyLinks": [
       {
-        "label": "Public Health and Epidemiology 教师 / Faculty",
-        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health"
+        "label": "公共卫生与流行病学老师页面",
+        "url": "https://www.ku.ac.ae/academics/college-of-medicine-and-health-sciences/department/department-of-epidemiology-population-health#people"
       }
     ]
   }

@@ -27,8 +27,7 @@ const generateReport = document.querySelector("#generateReport");
 const stepTabs = [...document.querySelectorAll(".step-tab")];
 const formSteps = [...document.querySelectorAll(".form-step")];
 
-const KU_APPLICATION_URL = "https://admissions.ku.ac.ae/";
-const KU_POSTGRADUATE_URL = "https://www.ku.ac.ae/postgraduate-admissions";
+const KU_ADMISSIONS_URL = "https://www.ku.ac.ae/admissions";
 
 const REGION_LABELS = {
   "north-america": "北美",
@@ -342,10 +341,7 @@ function primaryAction(result) {
       label: "高匹配，可以准备正式申请",
       title: "把 KU 作为主申目标",
       text: "先确认当季申请是否开放，再按推荐项目准备 SOP、Research Statement、推荐信和语言/GRE 材料。",
-      actions: [
-        { label: "打开 KU 申请入口", url: KU_APPLICATION_URL },
-        { label: "查看申请要求", url: KU_POSTGRADUATE_URL }
-      ]
+      actions: [{ label: "KU Admissions", url: KU_ADMISSIONS_URL }]
     };
   }
 
@@ -355,7 +351,7 @@ function primaryAction(result) {
       label: "当前风险较高",
       title: "不建议只押 KU",
       text: "这不代表不能留学，只是 KU 当前匹配度偏吃力。中东地区有不少奖学金丰厚的院校，可以先看店铺其他商品；后续会补一份中东地区选校指南。",
-      actions: [{ label: "查看 KU 官方要求", url: KU_POSTGRADUATE_URL }]
+      actions: []
     };
   }
 
@@ -364,7 +360,7 @@ function primaryAction(result) {
     label: "有机会，但需要补强",
     title: "先补最短板，再决定是否递交",
     text: "建议优先处理硬门槛、科研证据和导师匹配；如果推荐项目高度契合，可以把 KU 放入冲刺或重点尝试名单。",
-    actions: [{ label: "查看 KU 申请要求", url: KU_POSTGRADUATE_URL }]
+    actions: []
   };
 }
 
@@ -373,7 +369,7 @@ function renderOutcome(result, profile) {
   const topProgram = result.recommendations[0];
   const failedMinimums = result.eligibility.filter((item) => !item.passed).length;
   const fundingPoint =
-    profile.targetDegree === "master" ? "奖学金预期：以正式 offer 和 scholarship letter 为准" : "奖学金预期：博士按 Tier III / CSC-KU 分开判断";
+    profile.targetDegree === "master" ? "奖学金预期：以正式 offer 和 scholarship letter 为准" : "奖学金预期：博士按 KU 奖学金 / KU-CSC 两类判断";
   const actionLinks = action.actions
     .map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`)
     .join("");
@@ -388,7 +384,7 @@ function renderOutcome(result, profile) {
       <b>硬门槛：${failedMinimums === 0 ? "已通过当前填写项" : `${failedMinimums} 项需先补齐`}</b>
       <b>${fundingPoint}</b>
     </div>
-    <div class="outcome-actions">${actionLinks}</div>
+    ${actionLinks ? `<div class="outcome-actions">${actionLinks}</div>` : ""}
   `;
 }
 

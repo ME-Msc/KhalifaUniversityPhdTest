@@ -5,8 +5,8 @@
       "url": "https://www.ku.ac.ae/academics/graduate-programs"
     },
     {
-      "label": "Khalifa University Postgraduate Admissions",
-      "url": "https://www.ku.ac.ae/postgraduate-admissions"
+      "label": "Khalifa University Admissions",
+      "url": "https://www.ku.ac.ae/admissions"
     },
     {
       "label": "Khalifa University Graduate Scholarships Catalog",
@@ -18,8 +18,8 @@
     }
   ],
   "notes": {
-    "phdTierExpectation": "For Chinese applicants, the in-app practical expectation is set to KU PhD Research Path Tier III based on current-student feedback supplied by the seller; official scholarship tier assignment still depends on KU's offer and scholarship letter.",
-    "cscAmount": "KU official scholarship catalog lists AED 9,200 monthly stipend from KU for CSC-KU PhD students and says an additional stipend is provided by CSC. The publicly referenced KU catalog does not state the CSC-side amount.",
-    "wqe": "Writing Qualifying Exam pass-rate and scholarship pause rule are marked in-app as non-official current-student feedback supplied by the seller."
+    "phdFundingExpectation": "For Chinese PhD students, the in-app practical funding note follows current-student feedback supplied by the seller: KU scholarship and KU-CSC are presented as two common paths, with KU scholarship cash-flow estimates shown separately from official award language.",
+    "cscAmount": "KU-CSC details are shown as offer-dependent because the public KU catalog and CSC-side award terms may not provide one fixed public amount for every student.",
+    "wqe": "Writing Qualifying Exam pass-rate, scholarship pause rules, GPA pause thresholds, and Q1 graduation note are marked in-app as non-official current-student feedback supplied by the seller."
   }
 }

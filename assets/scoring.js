@@ -447,16 +447,16 @@ function buildScholarshipInfo(profile) {
 
   return [
     {
-      title: "普通 KU PhD 奖学金预期：Tier III",
-      text: "按现有中国博士生样本，本工具默认把中国申请人的普通 KU PhD offer 预期写为 Research Path Tier III，而不是 Tier I/II。KU 官方目录中 Tier III 为 75% 学费减免、每月 AED 20,000 津贴，并包含教材、医保、签证/往返机票等支持；仍需以正式 scholarship letter 和 fee guide 为准。"
+      title: "KU 奖学金（在读中国学生口径）",
+      text: "目前在读的中国学生常见两类：KU 奖学金和 KU-CSC 奖学金。KU 奖学金每月 AED 20,000，扣除约 AED 3,000/2,000 住宿费（取决于单人间或公用客厅房型）和学费后，每月约剩余 AED 14,500；生活成本（吃饭+适当娱乐）约 AED 3,000。"
     },
     {
-      title: "CSC-KU PhD Scholarship",
-      text: "CSC-KU 属于另一条资助路径。KU 官方目录列出 CSC-KU PhD 学生由 KU 提供每月 AED 9,200，CSC 另提供 additional stipend；公开 KU 目录未写明 CSC 侧具体金额。"
+      title: "KU-CSC 奖学金",
+      text: "KU-CSC 属于另一条资助路径，由 KU 与 CSC 共同支持；具体到账金额、学费安排和补助结构以个人 offer、CSC 批件和 scholarship letter 为准。"
     },
     {
-      title: "Writing Qualifying Exam",
-      text: "在读反馈：PhD 第二学期通常有 Writing Qualifying Exam，通过率约 85%；若第一次未过，奖学金可能暂停 6 个月，第二次通过后恢复，仍未通过可能退学。此条按在读反馈展示，非官网承诺。"
+      title: "WQE、GPA 与毕业风险",
+      text: "WQE 在入学第二学期考试，考三门本专业 KU 本科课程，2026 年通过率约 80%。第一次没过会停发 6 个月奖学金；第二次通过就恢复奖学金，第二次没过会退学。KU 奖学金每学期 GPA 低于 3.2 停发奖学金，KU-CSC 奖学金每学期 GPA 低于 3.5 停发奖学金。全校毕业要求均为一篇 Q1 期刊。此部分为在读反馈，非官网承诺。"
     }
   ];
 }

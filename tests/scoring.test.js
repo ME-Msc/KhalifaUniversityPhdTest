@@ -69,10 +69,17 @@ assert.ok(strong.recommendations.length > 0, "strong profile should produce reco
 assert.ok(strong.recommendations[0].nameZh && strong.recommendations[0].nameEn, "recommendations should be bilingual");
 assert.ok(strong.supervisorSuggestions.length > 0, "supervisor suggestions should be present");
 assert.ok(strong.supervisorSuggestions[0].links?.[0]?.url.includes("ku.ac.ae"), "supervisor suggestions should use KU faculty links");
+assert.ok(strong.supervisorSuggestions[0].links?.[0]?.url.endsWith("#people"), "supervisor links should jump to people sections");
+assert.ok(
+  !strong.supervisorSuggestions.some((item) => item.links?.some((link) => link.label.includes("教师 / Faculty"))),
+  "supervisor link labels should be concise"
+);
 assert.ok(!strong.supervisorSuggestions[0].url, "supervisor suggestions should not fall back to only one program page link");
 assert.ok(!strong.supervisorSuggestions.some((item) => item.text.includes("筛 3-5 位")), "supervisor suggestions should stay concise");
-assert.ok(strong.scholarshipInfo.some((item) => item.text.includes("Tier III")), "PhD scholarship guidance should use Tier III as the practical expectation");
-assert.ok(!strong.scholarshipInfo.some((item) => item.text.includes("Tier I 基本月津贴")), "PhD scholarship guidance should not frame Tier I as the practical default");
+assert.ok(strong.scholarshipInfo.some((item) => item.text.includes("AED 14,500")), "PhD scholarship guidance should include current-student cash-flow estimate");
+assert.ok(strong.scholarshipInfo.some((item) => item.text.includes("2026 年通过率约 80%")), "WQE guidance should include the 2026 current-student pass-rate estimate");
+assert.ok(strong.scholarshipInfo.some((item) => item.text.includes("GPA 低于 3.2")), "KU scholarship GPA pause threshold should be included");
+assert.ok(strong.scholarshipInfo.some((item) => item.text.includes("Q1 期刊")), "graduation Q1 journal note should be included");
 assert.ok(risky.eligibility.some((check) => !check.passed), "risky direct PhD should fail at least one minimum");
 assert.ok(risky.warnings.some((warning) => warning.title.includes("IELTS")), "low IELTS should produce a warning");
 assert.equal(rankPrograms(strongProfile, programs)[0].degrees.includes("phd"), true);
