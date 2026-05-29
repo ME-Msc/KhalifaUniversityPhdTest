@@ -2,10 +2,10 @@
   "enabled": true,
   "algorithm": "PBKDF2-SHA256",
   "iterations": 180000,
-  "salt": "VW2pf5yNLe7aoo93Dxre6w",
-  "hash": "m1-D2wvuvdRQZy3a0H48icAlPLw-v15yIIUj0xBGLHM",
-  "updatedAt": "2026-05-27T04:00:23.242Z",
-  "validUntil": "2026-05-29T04:00:23.242Z",
+  "salt": "zMwXhV5bdmJRNy7tKNdnXA",
+  "hash": "lb2lkC_YGalLeqYTogmjDBvpQ-z23ZWRoWUpNPLBCJA",
+  "updatedAt": "2026-05-29T03:50:31.728Z",
+  "validUntil": "2026-05-31T03:50:31.728Z",
   "codeLength": 10,
-  "codeFingerprint": "ba95eab1de"
+  "codeFingerprint": "94b8c80970"
 }
